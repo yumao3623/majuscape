@@ -1,0 +1,111 @@
+import type { CapitalizationQuestion } from "@/types/game";
+
+export const capitalizationQuestions: CapitalizationQuestion[] = [
+  // Choose the Correct Sentence — Easy
+  { id: "choose-e-01", mode: "choose", difficulty: "easy", skill: "sentence-beginnings", prompt: "Which sentence is correct?", options: ["the puppy is sleeping.", "The puppy is sleeping.", "The Puppy is sleeping."], answer: "The puppy is sleeping." },
+  { id: "choose-e-02", mode: "choose", difficulty: "easy", skill: "pronoun-i", prompt: "Which sentence is correct?", options: ["Maya and i made a kite.", "maya and I made a kite.", "Maya and I made a kite."], answer: "Maya and I made a kite." },
+  { id: "choose-e-03", mode: "choose", difficulty: "easy", skill: "days", prompt: "Which sentence is correct?", options: ["We swim on saturday.", "We swim on Saturday.", "we swim on Saturday."], answer: "We swim on Saturday." },
+  { id: "choose-e-04", mode: "choose", difficulty: "easy", skill: "months", prompt: "Which sentence is correct?", options: ["School starts in august.", "school starts in August.", "School starts in August."], answer: "School starts in August." },
+  { id: "choose-e-05", mode: "choose", difficulty: "easy", skill: "sentence-beginnings", prompt: "Which sentence is correct?", options: ["Here is your blue backpack.", "here is your blue backpack.", "Here is your Blue backpack."], answer: "Here is your blue backpack." },
+  { id: "choose-e-06", mode: "choose", difficulty: "easy", skill: "pronoun-i", prompt: "Which sentence is correct?", options: ["i can read this book.", "I can read this book.", "I can Read this book."], answer: "I can read this book." },
+  { id: "choose-e-07", mode: "choose", difficulty: "easy", skill: "days", prompt: "Which sentence is correct?", options: ["Tuesday is library day.", "tuesday is library day.", "Tuesday is Library day."], answer: "Tuesday is library day." },
+  { id: "choose-e-08", mode: "choose", difficulty: "easy", skill: "months", prompt: "Which sentence is correct?", options: ["My birthday is in June.", "my birthday is in June.", "My Birthday is in june."], answer: "My birthday is in June." },
+  { id: "choose-e-09", mode: "choose", difficulty: "easy", skill: "sentence-beginnings", prompt: "Which sentence is correct?", options: ["please close the gate.", "Please close the gate.", "Please Close the gate."], answer: "Please close the gate." },
+  { id: "choose-e-10", mode: "choose", difficulty: "easy", skill: "pronoun-i", prompt: "Which sentence is correct?", options: ["Can I help make lunch?", "Can i help make lunch?", "can I help make lunch?"], answer: "Can I help make lunch?" },
+
+  // Choose the Correct Sentence — Medium
+  { id: "choose-m-01", mode: "choose", difficulty: "medium", skill: "names", prompt: "Which sentence is correct?", options: ["My friend Jack has a new bike.", "My friend jack has a new bike.", "my friend Jack has a new bike."], answer: "My friend Jack has a new bike." },
+  { id: "choose-m-02", mode: "choose", difficulty: "medium", skill: "cities", prompt: "Which sentence is correct?", options: ["We visited New York in April.", "We visited new york in April.", "We visited New york in april."], answer: "We visited New York in April." },
+  { id: "choose-m-03", mode: "choose", difficulty: "medium", skill: "countries", prompt: "Which sentence is correct?", options: ["My aunt lives in mexico.", "My aunt lives in Mexico.", "my aunt lives in Mexico."], answer: "My aunt lives in Mexico." },
+  { id: "choose-m-04", mode: "choose", difficulty: "medium", skill: "languages", prompt: "Which sentence is correct?", options: ["Lena speaks English and Spanish.", "Lena speaks english and spanish.", "lena speaks English and Spanish."], answer: "Lena speaks English and Spanish." },
+  { id: "choose-m-05", mode: "choose", difficulty: "medium", skill: "holidays", prompt: "Which sentence is correct?", options: ["We bake cookies at christmas.", "We bake cookies at Christmas.", "we bake cookies at Christmas."], answer: "We bake cookies at Christmas." },
+  { id: "choose-m-06", mode: "choose", difficulty: "medium", skill: "nationalities", prompt: "Which sentence is correct?", options: ["Our new neighbor is Canadian.", "Our new neighbor is canadian.", "our new neighbor is Canadian."], answer: "Our new neighbor is Canadian." },
+  { id: "choose-m-07", mode: "choose", difficulty: "medium", skill: "cities", prompt: "Which sentence is correct?", options: ["Jordan flew to Los Angeles.", "Jordan flew to Los angeles.", "jordan flew to los Angeles."], answer: "Jordan flew to Los Angeles." },
+  { id: "choose-m-08", mode: "choose", difficulty: "medium", skill: "countries", prompt: "Which sentence is correct?", options: ["The United States has fifty states.", "The united states has fifty states.", "the United States has fifty states."], answer: "The United States has fifty states." },
+  { id: "choose-m-09", mode: "choose", difficulty: "medium", skill: "names", prompt: "Which sentence is correct?", options: ["Ava and Marcus built the model.", "Ava and marcus built the model.", "ava and Marcus built the model."], answer: "Ava and Marcus built the model." },
+  { id: "choose-m-10", mode: "choose", difficulty: "medium", skill: "holidays", prompt: "Which sentence is correct?", options: ["Our family gathers on Thanksgiving.", "Our family gathers on thanksgiving.", "our family gathers on Thanksgiving."], answer: "Our family gathers on Thanksgiving." },
+
+  // Choose the Correct Sentence — Hard
+  { id: "choose-h-01", mode: "choose", difficulty: "hard", skill: "titles", prompt: "Which sentence is correct?", options: ["We read The Secret Garden in class.", "We read The secret garden in class.", "We Read the Secret Garden in class."], answer: "We read The Secret Garden in class." },
+  { id: "choose-h-02", mode: "choose", difficulty: "hard", skill: "organisations", prompt: "Which sentence is correct?", options: ["The American Red Cross sent supplies.", "The American red cross sent supplies.", "The american Red Cross sent supplies."], answer: "The American Red Cross sent supplies." },
+  { id: "choose-h-03", mode: "choose", difficulty: "hard", skill: "geographic-names", prompt: "Which sentence is correct?", options: ["The Mississippi River flows south.", "The Mississippi river flows south.", "The mississippi River flows south."], answer: "The Mississippi River flows south." },
+  { id: "choose-h-04", mode: "choose", difficulty: "hard", skill: "historical-events", prompt: "Which sentence is correct?", options: ["The Civil War ended in 1865.", "The civil war ended in 1865.", "The Civil war Ended in 1865."], answer: "The Civil War ended in 1865." },
+  { id: "choose-h-05", mode: "choose", difficulty: "hard", skill: "titles", prompt: "Which sentence is correct?", options: ["My favorite book is A Wrinkle in Time.", "My favorite book is A Wrinkle In Time.", "My Favorite Book is a Wrinkle in Time."], answer: "My favorite book is A Wrinkle in Time." },
+  { id: "choose-h-06", mode: "choose", difficulty: "hard", skill: "organisations", prompt: "Which sentence is correct?", options: ["She volunteers for Habitat for Humanity.", "She volunteers for habitat for humanity.", "She Volunteers for Habitat For Humanity."], answer: "She volunteers for Habitat for Humanity." },
+  { id: "choose-h-07", mode: "choose", difficulty: "hard", skill: "geographic-names", prompt: "Which sentence is correct?", options: ["They hiked in the Rocky Mountains.", "They hiked in the Rocky mountains.", "They hiked in The rocky Mountains."], answer: "They hiked in the Rocky Mountains." },
+  { id: "choose-h-08", mode: "choose", difficulty: "hard", skill: "historical-events", prompt: "Which sentence is correct?", options: ["The Renaissance changed European art.", "The renaissance changed European art.", "The Renaissance changed european Art."], answer: "The Renaissance changed European art." },
+  { id: "choose-h-09", mode: "choose", difficulty: "hard", skill: "mixed", prompt: "Which sentence is correct?", options: ["Professor Lee teaches biology at Stanford University.", "Professor lee teaches Biology at Stanford university.", "professor Lee teaches biology at Stanford University."], answer: "Professor Lee teaches biology at Stanford University." },
+  { id: "choose-h-10", mode: "choose", difficulty: "hard", skill: "mixed", prompt: "Which sentence is correct?", options: ["President Abraham Lincoln delivered the Gettysburg Address.", "President Abraham lincoln delivered the Gettysburg address.", "president Abraham Lincoln delivered the gettysburg Address."], answer: "President Abraham Lincoln delivered the Gettysburg Address." },
+
+  // Fix the Sentence — Easy
+  { id: "fix-e-01", mode: "fix", difficulty: "easy", skill: "sentence-beginnings", prompt: "the cat is under the table.", answer: "The cat is under the table." },
+  { id: "fix-e-02", mode: "fix", difficulty: "easy", skill: "pronoun-i", prompt: "sam and i drew a map.", answer: "Sam and I drew a map." },
+  { id: "fix-e-03", mode: "fix", difficulty: "easy", skill: "days", prompt: "we have music on monday.", answer: "We have music on Monday." },
+  { id: "fix-e-04", mode: "fix", difficulty: "easy", skill: "months", prompt: "january can be very cold.", answer: "January can be very cold." },
+  { id: "fix-e-05", mode: "fix", difficulty: "easy", skill: "sentence-beginnings", prompt: "our class planted a garden.", answer: "Our class planted a garden." },
+  { id: "fix-e-06", mode: "fix", difficulty: "easy", skill: "pronoun-i", prompt: "may i borrow a pencil?", answer: "May I borrow a pencil?" },
+  { id: "fix-e-07", mode: "fix", difficulty: "easy", skill: "days", prompt: "friday is the last school day this week.", answer: "Friday is the last school day this week." },
+  { id: "fix-e-08", mode: "fix", difficulty: "easy", skill: "months", prompt: "the flowers bloom in may.", answer: "The flowers bloom in May." },
+  { id: "fix-e-09", mode: "fix", difficulty: "easy", skill: "sentence-beginnings", prompt: "look at that bright star!", answer: "Look at that bright star!" },
+  { id: "fix-e-10", mode: "fix", difficulty: "easy", skill: "pronoun-i", prompt: "when i finish, we can play.", answer: "When I finish, we can play." },
+
+  // Fix the Sentence — Medium
+  { id: "fix-m-01", mode: "fix", difficulty: "medium", skill: "names", prompt: "my friend jack lives near mia.", answer: "My friend Jack lives near Mia." },
+  { id: "fix-m-02", mode: "fix", difficulty: "medium", skill: "cities", prompt: "we took a train to boston.", answer: "We took a train to Boston." },
+  { id: "fix-m-03", mode: "fix", difficulty: "medium", skill: "countries", prompt: "my cousin moved to canada.", answer: "My cousin moved to Canada." },
+  { id: "fix-m-04", mode: "fix", difficulty: "medium", skill: "languages", prompt: "sofia is learning spanish.", answer: "Sofia is learning Spanish." },
+  { id: "fix-m-05", mode: "fix", difficulty: "medium", skill: "holidays", prompt: "we watch fireworks on independence day.", answer: "We watch fireworks on Independence Day." },
+  { id: "fix-m-06", mode: "fix", difficulty: "medium", skill: "nationalities", prompt: "the french chef baked fresh bread.", answer: "The French chef baked fresh bread." },
+  { id: "fix-m-07", mode: "fix", difficulty: "medium", skill: "cities", prompt: "uncle ben works in san francisco.", answer: "Uncle Ben works in San Francisco." },
+  { id: "fix-m-08", mode: "fix", difficulty: "medium", skill: "countries", prompt: "brazil is in south america.", answer: "Brazil is in South America." },
+  { id: "fix-m-09", mode: "fix", difficulty: "medium", skill: "languages", prompt: "does noah speak english or german?", answer: "Does Noah speak English or German?" },
+  { id: "fix-m-10", mode: "fix", difficulty: "medium", skill: "holidays", prompt: "labor day is in september.", answer: "Labor Day is in September." },
+
+  // Fix the Sentence — Hard
+  { id: "fix-h-01", mode: "fix", difficulty: "hard", skill: "titles", prompt: "we are reading charlotte's web.", answer: "We are reading Charlotte's Web." },
+  { id: "fix-h-02", mode: "fix", difficulty: "hard", skill: "organisations", prompt: "the national park service protects many wild places.", answer: "The National Park Service protects many wild places." },
+  { id: "fix-h-03", mode: "fix", difficulty: "hard", skill: "geographic-names", prompt: "the grand canyon lies in arizona.", answer: "The Grand Canyon lies in Arizona." },
+  { id: "fix-h-04", mode: "fix", difficulty: "hard", skill: "historical-events", prompt: "the american revolution began in 1775.", answer: "The American Revolution began in 1775." },
+  { id: "fix-h-05", mode: "fix", difficulty: "hard", skill: "titles", prompt: "dad read where the wild things are aloud.", answer: "Dad read Where the Wild Things Are aloud." },
+  { id: "fix-h-06", mode: "fix", difficulty: "hard", skill: "organisations", prompt: "the smithsonian institution has many museums.", answer: "The Smithsonian Institution has many museums." },
+  { id: "fix-h-07", mode: "fix", difficulty: "hard", skill: "geographic-names", prompt: "mount rainier is part of the cascade range.", answer: "Mount Rainier is part of the Cascade Range." },
+  { id: "fix-h-08", mode: "fix", difficulty: "hard", skill: "historical-events", prompt: "the great depression affected families worldwide.", answer: "The Great Depression affected families worldwide." },
+  { id: "fix-h-09", mode: "fix", difficulty: "hard", skill: "mixed", prompt: "doctor patel visited central high school on tuesday.", answer: "Doctor Patel visited Central High School on Tuesday." },
+  { id: "fix-h-10", mode: "fix", difficulty: "hard", skill: "mixed", prompt: "senator maria lopez spoke at the united nations.", answer: "Senator Maria Lopez spoke at the United Nations." },
+
+  // Capital or Not? — Easy
+  { id: "capital-e-01", mode: "capital", difficulty: "easy", skill: "days", prompt: "monday", answer: true, displayAnswer: "Monday" },
+  { id: "capital-e-02", mode: "capital", difficulty: "easy", skill: "sentence-beginnings", prompt: "dog", answer: false, displayAnswer: "dog" },
+  { id: "capital-e-03", mode: "capital", difficulty: "easy", skill: "months", prompt: "january", answer: true, displayAnswer: "January" },
+  { id: "capital-e-04", mode: "capital", difficulty: "easy", skill: "sentence-beginnings", prompt: "teacher", answer: false, displayAnswer: "teacher" },
+  { id: "capital-e-05", mode: "capital", difficulty: "easy", skill: "days", prompt: "wednesday", answer: true, displayAnswer: "Wednesday" },
+  { id: "capital-e-06", mode: "capital", difficulty: "easy", skill: "sentence-beginnings", prompt: "bicycle", answer: false, displayAnswer: "bicycle" },
+  { id: "capital-e-07", mode: "capital", difficulty: "easy", skill: "months", prompt: "october", answer: true, displayAnswer: "October" },
+  { id: "capital-e-08", mode: "capital", difficulty: "easy", skill: "pronoun-i", prompt: "i", answer: true, displayAnswer: "I" },
+  { id: "capital-e-09", mode: "capital", difficulty: "easy", skill: "sentence-beginnings", prompt: "playground", answer: false, displayAnswer: "playground" },
+  { id: "capital-e-10", mode: "capital", difficulty: "easy", skill: "months", prompt: "february", answer: true, displayAnswer: "February" },
+
+  // Capital or Not? — Medium
+  { id: "capital-m-01", mode: "capital", difficulty: "medium", skill: "countries", prompt: "mexico", answer: true, displayAnswer: "Mexico" },
+  { id: "capital-m-02", mode: "capital", difficulty: "medium", skill: "names", prompt: "olivia", answer: true, displayAnswer: "Olivia" },
+  { id: "capital-m-03", mode: "capital", difficulty: "medium", skill: "languages", prompt: "spanish", answer: true, displayAnswer: "Spanish" },
+  { id: "capital-m-04", mode: "capital", difficulty: "medium", skill: "cities", prompt: "new york", answer: true, displayAnswer: "New York" },
+  { id: "capital-m-05", mode: "capital", difficulty: "medium", skill: "mixed", prompt: "river", answer: false, displayAnswer: "river" },
+  { id: "capital-m-06", mode: "capital", difficulty: "medium", skill: "nationalities", prompt: "american", answer: true, displayAnswer: "American" },
+  { id: "capital-m-07", mode: "capital", difficulty: "medium", skill: "holidays", prompt: "thanksgiving", answer: true, displayAnswer: "Thanksgiving" },
+  { id: "capital-m-08", mode: "capital", difficulty: "medium", skill: "mixed", prompt: "school", answer: false, displayAnswer: "school" },
+  { id: "capital-m-09", mode: "capital", difficulty: "medium", skill: "cities", prompt: "los angeles", answer: true, displayAnswer: "Los Angeles" },
+  { id: "capital-m-10", mode: "capital", difficulty: "medium", skill: "mixed", prompt: "cousin", answer: false, displayAnswer: "cousin" },
+
+  // Capital or Not? — Hard
+  { id: "capital-h-01", mode: "capital", difficulty: "hard", skill: "organisations", prompt: "national aeronautics and space administration", answer: true, displayAnswer: "National Aeronautics and Space Administration" },
+  { id: "capital-h-02", mode: "capital", difficulty: "hard", skill: "geographic-names", prompt: "pacific ocean", answer: true, displayAnswer: "Pacific Ocean" },
+  { id: "capital-h-03", mode: "capital", difficulty: "hard", skill: "mixed", prompt: "the science teacher", answer: false, displayAnswer: "the science teacher" },
+  { id: "capital-h-04", mode: "capital", difficulty: "hard", skill: "historical-events", prompt: "industrial revolution", answer: true, displayAnswer: "Industrial Revolution" },
+  { id: "capital-h-05", mode: "capital", difficulty: "hard", skill: "titles", prompt: "a wrinkle in time", answer: true, displayAnswer: "A Wrinkle in Time" },
+  { id: "capital-h-06", mode: "capital", difficulty: "hard", skill: "mixed", prompt: "the school principal", answer: false, displayAnswer: "the school principal" },
+  { id: "capital-h-07", mode: "capital", difficulty: "hard", skill: "geographic-names", prompt: "rocky mountains", answer: true, displayAnswer: "Rocky Mountains" },
+  { id: "capital-h-08", mode: "capital", difficulty: "hard", skill: "organisations", prompt: "world health organization", answer: true, displayAnswer: "World Health Organization" },
+  { id: "capital-h-09", mode: "capital", difficulty: "hard", skill: "mixed", prompt: "a history class", answer: false, displayAnswer: "a history class" },
+  { id: "capital-h-10", mode: "capital", difficulty: "hard", skill: "historical-events", prompt: "boston tea party", answer: true, displayAnswer: "Boston Tea Party" },
+];

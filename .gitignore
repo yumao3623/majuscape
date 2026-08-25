@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/out
+
+# local and deployment files
+.vercel
+.env*
+!.env.example
+
+# test and package-manager output
+/coverage
+*.log
+
+# operating system files
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+*.tsbuildinfo
+
+.vercel
+
+# Next.js generated types
+/next-env.d.ts
