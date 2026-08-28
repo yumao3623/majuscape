@@ -22,6 +22,7 @@ export default function PrivacyPage() {
             ["No account required", "The website does not ask learners to register or provide a name, email address, birthday, photo, or uploaded file in order to play."],
             ["Information stored in your browser", "The games may use localStorage to remember XP, stars, completed rounds, best scores, a practice streak, unlocked zones, and capitalization rules practiced on this device. This data stays in that browser unless you clear it. The games continue to work if browser storage is unavailable."],
             ["Hosting and technical logs", "The hosting provider may process standard technical information, such as IP addresses, request times, device information, and error logs, as part of operating, securing, and maintaining its infrastructure."],
+            ["Anonymous visit measurement", "Majuscape uses Vercel Web Analytics to understand aggregate site traffic and performance. It is not used for advertising, learner profiles, or recording game answers, XP, or localStorage progress."],
             ["No advertising or marketing trackers", "This MVP does not include advertising SDKs, third-party marketing trackers, chat, or user-upload features."],
             ["Changes", "This page may be updated if the website's features or technical setup change. Any description here should be read together with the current behavior of the service."],
           ].map(([title, text]) => (

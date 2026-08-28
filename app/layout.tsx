@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { defaultDescription, defaultTitle, siteName } from "@/lib/seo";
 import { siteUrl } from "@/lib/site";
 import "./globals.css";
@@ -18,5 +19,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en" data-scroll-behavior="smooth"><body>{children}</body></html>;
+  return <html lang="en" data-scroll-behavior="smooth"><body>{children}<Analytics /></body></html>;
 }
