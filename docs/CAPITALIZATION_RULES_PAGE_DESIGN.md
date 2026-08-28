@@ -78,3 +78,4 @@
 5. Selected descriptive, contextual internal links and a direct navigation path to avoid orphaning and link repetition.
 6. Limited structured data to types supported by visible, truthful page content.
 7. Kept the page static and repository-maintained for performance and low operational complexity.
+8. Used ZippyStarter only for semantic theme grouping and component-state consistency, and the forked shadcn landing template only for section rhythm and component organization; retained Majuscape's original visual identity and product structure.

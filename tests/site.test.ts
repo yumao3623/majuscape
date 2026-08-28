@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import sitemap from "@/app/sitemap";
 import { absoluteUrl, createPageMetadata, serializeJsonLd } from "@/lib/seo";
 import { productionSiteUrl, resolveSiteUrl } from "@/lib/site";
 
@@ -31,5 +32,12 @@ describe("SEO helpers", () => {
 
   it("creates absolute URLs from the configured site origin", () => {
     expect(absoluteUrl("/capitalization-games")).toBe("https://majuscape.fun/capitalization-games");
+  });
+
+  it("includes the capitalization rules guide but excludes the legacy redirect from the sitemap", () => {
+    const urls = sitemap().map((entry) => entry.url);
+
+    expect(urls).toContain("https://majuscape.fun/capitalization-rules-for-kids");
+    expect(urls).not.toContain("https://majuscape.fun/capitalization-games");
   });
 });

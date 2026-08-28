@@ -93,6 +93,7 @@ export default function HomePage() {
               <p>CAPITALIZATION PRACTICE THAT PLAYS LIKE A GAME</p>
               <h2 id="about-games-heading">What are capitalization games?</h2>
               <span>Capitalization games help students decide when a word should or should not begin with an uppercase letter. Majuscape puts those decisions inside complete sentences, gives rule-based feedback, and lets learners correct the text themselves.</span>
+              <Link href="/capitalization-rules-for-kids" className="content-guide-link">Read the capitalization rules for kids <ArrowRight aria-hidden="true" /></Link>
             </div>
             <div className="skill-list" aria-label="Capitalization skills">
               {skills.map(([title, text], index) => <article key={title}><b>{String(index + 1).padStart(2, "0")}</b><div><h3>{title}</h3><p>{text}</p></div></article>)}
